@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
 # Libraries
 PRODUCT_COPY_FILES += \
     vendor/denver/TAQ90/proprietary/vendor/lib/libcamera.device@1.0-impl.so:system/lib/libcamera.device@1.0-impl.so \
-    vendor/denver/TAQ90/proprietary/vendor/lib/libcamera.device@3.2-impl.so:system/lib/libcamera.device@3.2-impl.so \
     vendor/denver/TAQ90/proprietary/vendor/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/denver/TAQ90/proprietary/vendor/lib/libdrm.so:system/lib/libdrm.so \
     vendor/denver/TAQ90/proprietary/vendor/lib/libffmpeg.so:system/lib/libffmpeg.so \
