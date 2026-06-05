@@ -171,8 +171,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/denver/TAQ90/proprietary/vendor/media/LMspeed_508.emd:system/media/LMspeed_508.emd \
     vendor/denver/TAQ90/proprietary/vendor/media/PFFprec_600.emd:system/media/PFFprec_600.emd
-
-# Overlay
-PRODUCT_COPY_FILES += \
-    vendor/denver/TAQ90/proprietary/vendor/overlay/framework-res__auto_generated_rro.apk:system/overlay/framework-res__auto_generated_rro.apk \
-    vendor/denver/TAQ90/proprietary/vendor/overlay/SysuiDarkTheme/SysuiDarkThemeOverlay.apk:system/overlay/SysuiDarkTheme/SysuiDarkThemeOverlay.apk
