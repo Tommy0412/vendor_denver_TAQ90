@@ -32,7 +32,8 @@ PRODUCT_COPY_FILES += \
 
 # Libraries
 PRODUCT_COPY_FILES += \
-    vendor/denver/TAQ90/proprietary/vendor/lib/libcamera.device@1.0-impl.so:system/lib/libcamera.device@1.0-impl.so \
+    vendor/denver/TAQ90/proprietary/vendor/lib/camera.device@1.0-impl.so:system/lib/libcamera.device@1.0-impl.so \
+    vendor/denver/TAQ90/proprietary/vendor/lib/camera.device@3.2-impl.so:system/lib/libcamera.device@3.2-impl.so \
     vendor/denver/TAQ90/proprietary/vendor/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/denver/TAQ90/proprietary/vendor/lib/libdrm.so:system/lib/libdrm.so \
     vendor/denver/TAQ90/proprietary/vendor/lib/libffmpeg.so:system/lib/libffmpeg.so \
@@ -98,7 +99,7 @@ PRODUCT_COPY_FILES += \
 
 # Additional libraries
 PRODUCT_COPY_FILES += \
-    vendor/denver/TAQ90/proprietary/vendor/lib/libcamera.device@3.3-impl.so:system/lib/libcamera.device@3.3-impl.so \
+    vendor/denver/TAQ90/proprietary/vendor/lib/camera.device@3.3-impl.so:system/lib/libcamera.device@3.3-impl.so \
     vendor/denver/TAQ90/proprietary/vendor/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/denver/TAQ90/proprietary/vendor/lib/libavservices_minijail_vendor.so:system/lib/libavservices_minijail_vendor.so \
     vendor/denver/TAQ90/proprietary/vendor/lib/libbt-vendor-realtek.so:system/lib/libbt-vendor-realtek.so \
