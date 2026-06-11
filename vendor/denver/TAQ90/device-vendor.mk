@@ -1,4 +1,9 @@
 PRODUCT_COPY_FILES += \
+    vendor/denver/TAQ90/proprietary/vendor/manifest.xml:vendor/manifest.xml \
+    vendor/denver/TAQ90/proprietary/vendor/compatibility_matrix.xml:vendor/compatibility_matrix.xml \
+    vendor/denver/TAQ90/proprietary/vendor/build.prop:vendor/build.prop
+
+PRODUCT_COPY_FILES += \
     vendor/denver/TAQ90/proprietary/vendor/bin/hw/android.hardware.audio@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@2.0-service \
     vendor/denver/TAQ90/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service \
     vendor/denver/TAQ90/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
