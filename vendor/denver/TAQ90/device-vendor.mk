@@ -1,7 +1,3 @@
-# 1. VINTF Manifest
-PRODUCT_COPY_FILES += \
-    vendor/denver/TAQ90/proprietary/vendor/manifest.xml:vendor/manifest.xml
-
 PRODUCT_COPY_FILES += \
     vendor/denver/TAQ90/proprietary/vendor/bin/hw/android.hardware.audio@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@2.0-service \
     vendor/denver/TAQ90/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service \
